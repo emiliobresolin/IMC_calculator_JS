@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+      <div class="div1">
+        <p><b>IMC</b></p>
+        <p>Less than 18,5</p>
+        <p>Between 18,5 and 24,9</p>
+        <p>Between 25 and 29,9</p>
+        <p>Between 30 and 34,9</p>
+        <p>Between 35 and 39,9</p>
+        <p>Over 40</p>
+      </div>
+      <div class="div2">
+        <p><b>Result</b></p>
+        <p>Under weight</p>
+        <p>Normal weight</p>
+        <p>Overweight</p>
+        <p>Grade 1 obesity</p>
+        <p>Grade 2 obesity</p>
+        <p>Grade 3 obesity</p>
+      </div>
+    <div>
+    <h1>Calculation</h1>
+      <form action="/" id="form" method="POST">
+        <label for="weight">Weight</label>
+        <input type="text", id="weight" name="weight">
+        <label for="height">Height</label>
+        <input type="text", id="height" name="height">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div id="result"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
